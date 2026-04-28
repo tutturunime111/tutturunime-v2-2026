@@ -9,7 +9,7 @@ export function corsMiddleware(req, res, next) {
   }
   
   // In your API route (getGenreList.js)
-  import corsMiddleware from './middleware';
+  // import corsMiddleware from './middleware';
   
   export default async function getGenreList(req, res) {
     // ... your existing logic for fetching and processing data ...
